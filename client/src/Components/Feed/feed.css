@@ -1,0 +1,10 @@
+.f-main{
+    padding: 15px;
+}
+
+@media (max-width:992px) {
+    .f-main{
+        padding: 0;
+        margin-top: 20px;
+    }
+}

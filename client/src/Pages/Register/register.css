@@ -1,0 +1,97 @@
+/* .login{
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.main{
+    padding: 20px;
+}
+
+.login-left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-logo{
+    font-size: 50px;
+    font-weight: 800;
+    color: #1775ee;
+    margin-bottom: 10px;
+}
+
+.logo-desc{
+    font-size: 24px;
+    text-align: center;
+}
+
+.register-box{
+   height: 425px;
+   width: 85%;
+   padding: 30px;
+   background-color: white;
+   border-radius: 10px;
+   -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5); 
+   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.login-input{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.signup-button{
+    border-radius: 10px !important;
+    border: none;
+    height: 40px !important;
+    font-size: 20px !important;
+}
+
+.log-button{
+    border-radius: 10px !important;
+    border: none;
+    width: 60%;
+    align-self: center;
+    height: 40px !important;
+    font-size: 14px !important;
+    margin-top: 15px;
+}
+
+.log-nav{
+    color: white;
+    padding: 2px !important;
+}
+
+.log-nav:hover{
+    color: white;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .log-button{
+        font-size: 13px !important;
+    }  
+}
+
+@media screen and (max-width:768px) {
+    .login-right{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .register-box{
+        width: 95%;
+    } 
+}

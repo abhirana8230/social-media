@@ -1,0 +1,36 @@
+.list-sidebar{
+    list-style: none;
+}
+
+.icon-sidebar{
+    padding: 2px;
+    margin: 10px;
+}
+
+.span-sidebar{
+    margin: 10px;
+}
+
+.btn{
+    background-color: rgb(249, 247, 247);
+}
+
+.hr-sidebar{
+    margin: 15px 0;
+    height: 3px;
+    background-color: whitesmoke;
+}
+
+.img-sidebar{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.list-item-sidebar{
+    margin-bottom: 10px;
+}
+
+
+

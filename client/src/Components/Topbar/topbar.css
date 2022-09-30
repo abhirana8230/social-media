@@ -1,0 +1,53 @@
+.t-nav{
+    background-color: #e3f2fd;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.t-search{
+    background-color: white;
+}
+
+.searchinput:focus{
+     outline: none;
+     padding: 3px;
+}
+
+.t-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.item-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-icon{
+    margin: 5px;
+    width: 22px !important;
+    cursor: pointer;
+}
+
+.t-img{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;   
+}
+
+@media  screen and (max-width: 992px) {
+    .t-items{
+        align-items: flex-start;     
+    }
+}
+

@@ -1,0 +1,72 @@
+.profile-sidebar {
+    height: 91.1vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.profile-sidebar:hover {
+    scrollbar-width: thin;
+}
+
+.profile-right {
+    height: 91.1vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(195, 183, 183);
+}
+
+.profile-cover {
+    height: 320px;
+    width: 100%;
+    position: relative;
+}
+
+.profile-cover-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.profile-user-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 150px;
+    border: 3px solid black;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.profile-info-name {
+    font-size: 24px;
+}
+
+.profile-info-desc {
+    font-weight: 300;
+}
+

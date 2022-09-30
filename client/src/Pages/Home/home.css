@@ -1,0 +1,47 @@
+.sidebar{
+  height: 91.1vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.sidebar:hover{
+  scrollbar-width: thin;
+}
+
+.feed{
+  height: 91.1vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.rightbar{
+  height: 91.1vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  display: none;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(195, 183, 183);
+}
+
+@media screen and (max-width:768px) {
+  .sidebar{
+    display: none;
+}
+  .rightbar{
+      display: none;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+  .sidebar{
+      display: none;
+  }
+}
